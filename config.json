@@ -1,0 +1,43 @@
+{
+    "baseurl": "http://hitjim.com/",
+    "title": "hit jim dot com",
+    "languageCode": "en-us",
+    "metaDataFormat": "json",
+    "theme": "hyde-x",
+    "paginate": 15,
+
+    "author": {
+        "name": "Jim Rice"
+    },
+
+    "permalinks": {
+        "post": ":year/:month/:day/:slug/",
+        "fixed": ":title"
+    },
+
+    "taxonomies": {
+        "category": "categories"
+    },
+
+    "params": {
+        "truncate": true,
+        
+        "defaultDescription": "A wild Jim Rice appears!",
+        "defaultKeywords": "jim rice,home,website,blog",
+
+        "theme": "theme-base-0d",
+        "highlight": "monokai_sublime",
+
+        "tagline": "Greetings, word-typers!",
+
+        "home": "Blog",
+
+        "googleAuthorship": "JimRiceAppears",
+        "googleAnalytics": "UA-25415295-1",
+        "gravatarHash": "617fa07e555039e2642dc7d188dbb1d8",
+
+        "github": "https://github.com/hitjim",
+        "stackOverflow": "http://stackoverflow.com/users/2418924/hitjim",
+        "twitter": "https://twitter.com/jiiimbot"
+    }
+}

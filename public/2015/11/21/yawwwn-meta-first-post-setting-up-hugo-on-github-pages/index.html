@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Meta First Post - Setting Up a Personal Site with Hugo and Github Pages &middot; Jim Rice</title>
+
+  
+  <link rel="stylesheet" href="http://hitjim.com/css/poole.css">
+  <link rel="stylesheet" href="http://hitjim.com/css/hyde.css">
+  <link rel="stylesheet" href="http://hitjim.com/css/poole-overrides.css">
+  <link rel="stylesheet" href="http://hitjim.com/css/hyde-overrides.css">
+  <link rel="stylesheet" href="http://hitjim.com/css/hyde-x.css">
+  <link rel="stylesheet" href="http://hitjim.com/css/highlight/monokai_sublime.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://hitjim.com/touch-icon-144-precomposed.png">
+  <link href="http://hitjim.com/favicon.png" rel="icon">
+
+  
+  
+  
+  
+
+  <meta name="description" content="How I got my website running with Hugo and Github Pages">
+  <meta name="keywords" content="blog,guide,notes,github,hugo">
+  <link rel="author" href="http://plus.google.com/JimRiceAppears">
+</head>
+<body class="theme-base-0d">
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      
+        <img src="https://www.gravatar.com/avatar/617fa07e555039e2642dc7d188dbb1d8?s=200"
+             alt="gravatar" title="Jim Rice">
+      
+      <h1>Jim Rice</h1>
+      <p class="lead">Greetings, word-typers!</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="http://hitjim.com/">Blog</a></li>
+      
+      <li class="sidebar-nav-item"><a href="http://hitjim.com/about/">About Me</a></li>
+      
+    </ul>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      <a href="https://github.com/hitjim"><i class="fa fa-github-square fa-3x"></i></a>
+      
+      <a href="http://stackoverflow.com/users/2418924/hitjim"><i class="fa fa-stack-overflow fa-3x"></i></a>
+      
+      
+      
+      <a href="https://twitter.com/jiiimbot"><i class="fa fa-twitter-square fa-3x"></i></a>
+      
+      
+      </li>
+    </ul>
+
+    
+
+    <p>Copyright &copy; 2015 <a href="http://hitjim.com/license/">License</a><br/>
+       Powered by <a href="http://gohugo.io">Hugo</a> and <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p>
+  </div>
+</div>
+
+
+<div class="content container">
+  <div class="post">
+    <h1>Meta First Post - Setting Up a Personal Site with Hugo and Github Pages</h1>
+    <span class="post-date">Nov 21, 2015 &middot; 3 minute read
+    
+    <br/>
+    <a class="label" href="http://hitjim.com/categories/hugo">hugo</a><a class="label" href="http://hitjim.com/categories/github">github</a>
+    </span>
+    
+
+<p>I&rsquo;d done it a half dozen times before.  Scorch the earth on my webserver, start a new database and spin a new Wordpress blog with the purest of intentions.  But this time would be different!  It always is.</p>
+
+<h3 id="this-time-is-different-i-m-going-to-use-ghost:a93f96bc828519b95e3919f91015fb5a">THIS TIME <em>IS</em> DIFFERENT!  I&rsquo;M GOING TO USE GHOST!!</h3>
+
+<p>I&rsquo;ve used Ghost a few times on teams and it&rsquo;s really nice.  Not throwing stones here.  But I had that nagging feeling as I dug into guides for setting up Ghost on Digital Ocean.  I fretted over which Linux distro to use, or whether to allow comments.  Tangents and rabbit holes abound.</p>
+
+<h3 id="i-don-t-need-that:a93f96bc828519b95e3919f91015fb5a">I don&rsquo;t <em>need</em> that.</h3>
+
+<p>I need simplicity.  I need speed.  I need ease or near-absence of maintenance.  I need to type words and have them display on a screen.  I need a static site.</p>
+
+<p>I&rsquo;d heard great things about Jekyll, and if I hadn&rsquo;t recently been learning Go, maybe I would finally be playing with Ruby.  But today is not that day.  So <a href="https://gohugo.io">Hugo</a> it was.</p>
+
+<p>I&rsquo;d noticed a few peers were hosting their blogs and portfolio sites on <a href="https://pages.github.com/">Github Pages</a>.  Awesome, source control plus free webhosting.  Now I don&rsquo;t have to shell out money each year to <em>not</em> update my blog.  Wait&hellip; I mean, <em>this time will be different!!</em></p>
+
+<p>So, I quite easily found <a href="https://gohugo.io/tutorials/github-pages-blog/">this guide</a> for using Hugo to publish static websites on Github Pages.</p>
+
+<h3 id="words-are-for-reading:a93f96bc828519b95e3919f91015fb5a">Words are for reading.</h3>
+
+<p>I hope I will continue adding content to this site in the same way you see here.  I may ramble at bit at times.  But I will <em>not</em> just share my victories and paint them as flawless.</p>
+
+<p>I wasted a good evening trying to follow the steps at the top of the guide linked above, which was intended to establish a <code>gh-pages</code> branch for a project repo.  That was NOT what I wanted.  It&rsquo;s no big surpise that I got build errors when I tried to have a <code>gh-pages</code> branch in a repo named such that it gets automatically built as a github page.  I scrolled further into the guide to find the steps accurately and obviously titled &ldquo;Host Personal/Organizational Pages.&rdquo;  After swearing at myself and some pro-level face-palming, I continued on my quest.</p>
+
+<h3 id="here-s-the-gist:a93f96bc828519b95e3919f91015fb5a">Here&rsquo;s the gist.</h3>
+
+<ol>
+<li>Download and install <a href="https://golang.org/doc/install">Go</a> and <a href="https://gohugo.io/overview/installing/">Hugo</a>.</li>
+<li>Create Github repo for building site and authoring content - <a href="https://github.com/hitjim/hitjim-hugo">https://github.com/hitjim/hitjim-hugo</a></li>
+<li>Create Github repo for hosting site.  You can witness the litany of errors in the early commit history! - <a href="https://github.com/hitjim/hitjim.github.io">https://github.com/hitjim/hitjim.github.io</a></li>
+<li>Locally clone and enter <code>hitjim-hugo</code> repo, <a href="https://github.com/zyro/hyde-x#installation">install a theme I liked</a>.</li>
+<li>Then ape the <a href="https://github.com/zyro/andreimihu.com/blob/master/config.toml">config file from the author of that theme&rsquo;s blog</a> for my own config file at the root dir of the project, while making the appropriate personalizations.</li>
+<li>Run <code>hugo server --watch -t hyde-x</code> to start a local dev server that watches and updates when it detects changes.</li>
+<li>Run <code>hugo new about.md</code> to make and then edit my about page.</li>
+<li>Run <code>hugo new post\meta-first-post.md</code> to to make and then edit this very post.</li>
+<li>Delete the <code>public</code> folder as instructed and run <code>hugo</code> on its own for the final build.</li>
+<li>Copy contents of <code>public</code> to the <code>hitjim.github.io</code> repo, create a CNAME file containing my only my domain name <code>hitjim.com</code>, and push changes to Github.</li>
+<li>Configure my domain registrar to play nicely with Github Pages.  Much of <a href="https://help.github.com/articles/my-custom-domain-isn-t-working/">this page</a> helped me get it right.  In my case, I just needed &ldquo;A Record&rdquo; type entries, one with host <code>@</code> and another with <code>www</code>, and each one pointing a static IP for Github Pages - <code>192.30.252.153</code> and <code>192.30.252.154</code>.</li>
+<li>Be possibly a little too pleased with myself.</li>
+</ol>
+
+  </div>
+  
+</div>
+
+
+
+
+<script src="http://hitjim.com/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+  var _gaq=[['_setAccount','UA-25415295-1'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+</body>
+</html>
+
