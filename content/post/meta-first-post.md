@@ -35,6 +35,6 @@ I wasted a good evening trying to follow the steps at the top of the guide linke
 1. Run `hugo new about.md` to make and then edit my about page.
 1. Run `hugo new post\meta-first-post.md` to to make and then edit this very post.
 1. Delete the `public` folder as instructed and run `hugo` on its own for the final build.
-1. Copy contents of `public` to the `hitjim.github.io` repo, create a CNAME file containing my only my domain name `hitjim.com`, and push changes to Github.
+1. Copy contents of `public` to the `hitjim.github.io` repo, create a CNAME file containing only my domain name `hitjim.com`, and push changes to Github.
 1. Configure my domain registrar to play nicely with Github Pages.  Much of [this page](https://help.github.com/articles/my-custom-domain-isn-t-working/) helped me get it right.  In my case, I just needed "A Record" type entries, one with host `@` and another with `www`, and each one pointing a static IP for Github Pages - `192.30.252.153` and `192.30.252.154`. 
 1. Be possibly a little too pleased with myself. 
