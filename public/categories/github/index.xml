@@ -51,7 +51,7 @@
 &lt;li&gt;Run &lt;code&gt;hugo new about.md&lt;/code&gt; to make and then edit my about page.&lt;/li&gt;
 &lt;li&gt;Run &lt;code&gt;hugo new post\meta-first-post.md&lt;/code&gt; to to make and then edit this very post.&lt;/li&gt;
 &lt;li&gt;Delete the &lt;code&gt;public&lt;/code&gt; folder as instructed and run &lt;code&gt;hugo&lt;/code&gt; on its own for the final build.&lt;/li&gt;
-&lt;li&gt;Copy contents of &lt;code&gt;public&lt;/code&gt; to the &lt;code&gt;hitjim.github.io&lt;/code&gt; repo, create a CNAME file containing my only my domain name &lt;code&gt;hitjim.com&lt;/code&gt;, and push changes to Github.&lt;/li&gt;
+&lt;li&gt;Copy contents of &lt;code&gt;public&lt;/code&gt; to the &lt;code&gt;hitjim.github.io&lt;/code&gt; repo, create a CNAME file containing only my domain name &lt;code&gt;hitjim.com&lt;/code&gt;, and push changes to Github.&lt;/li&gt;
 &lt;li&gt;Configure my domain registrar to play nicely with Github Pages.  Much of &lt;a href=&#34;https://help.github.com/articles/my-custom-domain-isn-t-working/&#34;&gt;this page&lt;/a&gt; helped me get it right.  In my case, I just needed &amp;ldquo;A Record&amp;rdquo; type entries, one with host &lt;code&gt;@&lt;/code&gt; and another with &lt;code&gt;www&lt;/code&gt;, and each one pointing a static IP for Github Pages - &lt;code&gt;192.30.252.153&lt;/code&gt; and &lt;code&gt;192.30.252.154&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Be possibly a little too pleased with myself.&lt;/li&gt;
 &lt;/ol&gt;
