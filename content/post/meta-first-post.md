@@ -1,7 +1,7 @@
 {
-   "categories": ["hugo", "github"],
+   "categories": ["Hugo", "Github"],
    "date": "2015-11-21T23:33:51-06:00",
-   "description": "How I got my website running with Hugo and Github Pages",
+   "description": "How I got my website running with Hugo and Github Pages.",
    "keywords": ["blog","guide", "notes", "github", "hugo"],
    "title": "Meta First Post - Setting Up a Personal Site with Hugo and Github Pages",
    "slug": "yawwwn-meta-first-post-setting-up-hugo-on-github-pages"
