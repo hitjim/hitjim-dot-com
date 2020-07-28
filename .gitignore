@@ -24,3 +24,7 @@ _testmain.go
 *.prof
 
 dev/
+
+# editors
+**/*.swp
+**/*.swo
