@@ -12,21 +12,26 @@ theme = "LoveIt"
   description = "Jim Rice's personal website."
   keywords = ["tech", "development", "gamedev", "productivity", "model aviation", "cautious optimism?"]
 
-[params.app]
-  title = "hit jim dot com"
+	[params.app]
+		title = "hit jim dot com"
 
-[params.footer]
-  hugo = false
+	[params.footer]
+		hugo = false
+    author = false
 
-[params.home]
-  [params.home.profile]
-    gravatarEmail = "hitjim@gmail.com"
-    title = "Jim Rice"
-    disclaimer = "'Sucking at something is the first step towards being sorta good at something' - Jake the Dog"
+	[params.social]
+		GitHub = "hitjim"
+		Twitter = "jiiimbot"
 
-[params.social]
-  GitHub = "hitjim"
-  Twitter = "jiiimbot"
+	[params.home]
+		[params.home.profile]
+			title = ""
+			disclaimer = "'Sucking at something is the first step towards being sorta good at something' - Jake the Dog"
+      social = true
+
+[author]
+  name = "Jim Rice"
+  link = "/about"
 
 [menu]
   [[menu.main]]
@@ -44,6 +49,11 @@ theme = "LoveIt"
     name = "Categories"
     url = "/Categories/"
     weight = 3
+  [[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
+    weight = 4
 
 [markup]
   [markup.highlight]
