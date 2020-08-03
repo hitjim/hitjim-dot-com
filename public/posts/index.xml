@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - hit jim dot com</title>
+        <link>https://hitjim.com/posts/</link>
+        <description>All Posts | hit jim dot com</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 30 Jul 2020 00:42:41 -0500</lastBuildDate><atom:link href="https://hitjim.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Why Start a Blog</title>
+    <link>https://hitjim.com/posts/why-start-a-blog/</link>
+    <pubDate>Thu, 30 Jul 2020 00:42:41 -0500</pubDate>
+    <author>Author</author>
+    <guid>https://hitjim.com/posts/why-start-a-blog/</guid>
+    <description><![CDATA[<h2 id="why-indeed">Why indeed</h2>
+<p>I&rsquo;m familiar with some common reasons for maintaining a blog or personal website. Some seem selfish, some altruistic. Some of them seem relatable, to an extent.</p>]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,60 @@
+baseURL = "https://hitjim.com/"
+defaultContentLanguage = "en"
+languageCode = "en"
+title = "hit jim dot com"
+
+theme = "LoveIt"
+
+[params]
+  # LoveIt theme version
+  version = "0.2.X"
+  defaultTheme = "dark"
+  description = "Jim Rice's personal website."
+  keywords = ["tech", "development", "gamedev", "productivity", "model aviation", "cautious optimism?"]
+
+	[params.app]
+		title = "hit jim dot com"
+
+	[params.footer]
+		hugo = false
+    author = false
+
+	[params.social]
+		GitHub = "hitjim"
+		Twitter = "jiiimbot"
+
+	[params.home]
+		[params.home.profile]
+			title = ""
+			disclaimer = "'Sucking at something is the first step towards being sorta good at something' - Jake the Dog"
+      social = true
+
+[author]
+  name = "Jim Rice"
+  link = "/about"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/Categories/"
+    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
+    weight = 4
+
+[markup]
+  [markup.highlight]
+    noClasses = false
