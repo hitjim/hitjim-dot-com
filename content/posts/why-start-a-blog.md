@@ -8,8 +8,8 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: []
-categories: []
+tags: [personal]
+categories: [blog]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
