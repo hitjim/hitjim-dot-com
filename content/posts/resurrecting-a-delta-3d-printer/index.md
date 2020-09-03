@@ -15,7 +15,7 @@ hiddenFromHomePage: false
 hiddenFromSearch: false
 
 featuredImage: ""
-featuredImagePreview: "20200808_kossel-preview.jpg"
+featuredImagePreview: ""
 
 toc:
   enable: true
@@ -33,6 +33,8 @@ This adventure began as a transaction with atypical terms. Not only did they gen
 
 Now, like many things that don't cost you any money, this thing has been expensive in other challenging and satisfying ways.
 
+<!--more-->
+
 I recently caught up with an old coworker via video chat for the first time in months. I shared my wish to finally get a 3D printer, as well as my hesitance to do so. I figured I'd use a drill press or a belt+disc sander before I ever made good use of a 3D printer. Well, his solution was to send all 3 my way, as he had bigger and better versions of each. Talk about a lucky break!
 
 He had a kit-built [Kossel](https://reprap.org/wiki/Kossel) 250 from 5+ years ago. He bought a bunch of upgrades for it that still required installation. The [RAMPS 1.4](https://www.reprap.org/wiki/RAMPS_1.4) board went haywire a few years ago, so the heating bed stopped turning off. Since the time he built it, 3D printers have become much more inexpensive. Furthermore, "bonus features" from the past, like heated beds and automatic bed leveling, are now basic functionality for many new printers.
@@ -40,7 +42,6 @@ He had a kit-built [Kossel](https://reprap.org/wiki/Kossel) 250 from 5+ years ag
 {{< image src="20200808_kossel-before.jpg" caption="A dormant Kossel 250 delta 3D printer. The dust was also free." >}}
 {{< image src="20200811_kossel-cleaned-powered.jpg" caption="All cleaned up. Now what??" >}}
 
-<!--more-->
 
 ## Start small
 
